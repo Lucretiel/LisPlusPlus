@@ -1,0 +1,17 @@
+#pragma once
+
+#include "Evaluator.h"
+#include "Printer.h"
+#include "Reader.h"
+#include "Conditional.h"
+#include "Accumulator.h"
+#include "ConditionalIf.h"
+#include "Token.h"
+#include "ScopedBind.h"
+#include "ListBuilder.h"
+#include "Constructors.h"
+#include "Lambda.h"
+#include "Test.h"
+#include "Sequential.h"
+#include "ConditionalSwitch.h"
+#include "Rand.h"

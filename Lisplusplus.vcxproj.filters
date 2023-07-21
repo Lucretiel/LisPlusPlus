@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{ae72b1c6-f9fb-4a54-9bce-d434f2461b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator">
+      <UniqueIdentifier>{407dc14c-76f8-491c-a62e-2d2f825323d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\IO">
+      <UniqueIdentifier>{e8717731-3a08-4e1e-963d-65189cfadf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\Numrics">
+      <UniqueIdentifier>{90577765-b4d6-4dc3-ac5d-dcea9a4ff17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\Control Flow">
+      <UniqueIdentifier>{ec86a147-2899-488d-926d-06a9be0ecaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\Binders">
+      <UniqueIdentifier>{79e890f5-a3f3-44e4-b895-b42f4ddbedb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\Lists">
+      <UniqueIdentifier>{144e5bd9-16a7-45fa-a78d-b3404356bb1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator\Lambda">
+      <UniqueIdentifier>{72530dfa-e8c3-400d-b3f0-93a7a233410f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{33d27bf1-a143-4e64-9b2f-c81ed418b757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NilType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BindBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Value.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="NilType.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>Header Files\Evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\Evaluator\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluators.h">
+      <Filter>Header Files\Evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files\Evaluator\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Accumulator.h">
+      <Filter>Header Files\Evaluator\Numrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Conditional.h">
+      <Filter>Header Files\Evaluator\Numrics</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionalIf.h">
+      <Filter>Header Files\Evaluator\Control Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequential.h">
+      <Filter>Header Files\Evaluator\Control Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Header Files\Evaluator\Binders</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedBind.h">
+      <Filter>Header Files\Evaluator\Binders</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBuilder.h">
+      <Filter>Header Files\Evaluator\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructors.h">
+      <Filter>Header Files\Evaluator\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambda.h">
+      <Filter>Header Files\Evaluator\Lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BindBackend.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Evaluator\Numrics</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionalSwitch.h">
+      <Filter>Header Files\Evaluator\Control Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
+      <Filter>Header Files\Evaluator\Numrics</Filter>
+    </ClInclude>
+    <ClInclude Include="liscpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
